@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #F0F0F0;
+}
+
+main {
+  margin: 0 10% 1%;
+}
+
+button, input {
+  height: 40px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+nav.navbar ul{
+  height: 70px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background: rgb(46, 46, 46);
+}
+
+nav.navbar li {
+  float: left;
+}
+nav.navbar li a {
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 21px 16px;
+  text-decoration: none;
+  color: rgb(73, 138, 190);
+  font-family: 'Playfair Display', serif;
+}
+
+nav.navbar li a img {
+  height: 50px;
+  padding: 0 20px;
+}
+
+nav.navbar .right {
+  padding-top: 10px;
+  float: right;
+}
+
+nav.navbar .noPad {
+  padding: 0;
+}
+
+nav.navbar a:link,
+nav.navbar a:visited,
+nav.navbar a:active {
+  text-decoration: none;
+}
+
+.header {
+  padding: 60px 60px 15px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.card img {
+  height: 200px;
+  width: 250px;
+}
+
+.card p {
+  padding-bottom: 15px;
+}
+
+.card .price {
+  color: gray;
+  font-size: 22px;
+}
+
+.card .price span {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+.hist-container,
+.filtro {
+  margin: 25px;
+}
+
+.hist-container {
+  display: flex;
+}
+
+.box {
+  position: relative;
+  width: 50%;
+}
+
+.box-left {
+  height: 200px;
+}
+
+.box-right {
+  height: 200px;
+}
+
+.newDiv {
+  height: 200px;
+}
