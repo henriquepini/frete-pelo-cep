@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calcula frete !</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">CEP</a></li>
+      <li class="right"><a class="noPad" rel="noopener noreferrer" target="_blank" href="https://www.wyden.com.br/unimetrocamp"><img src="img/unimetrocamp-logo.png" alt=""></a></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <h1>Calcular frete de acordo com o CEP</h1>
+    <p>Projeto da aula de Desenvolvimento de Software</p>
+  </header>
+
+  <div class="card">
+    <img src="img/ssd1.png" alt="Imagem de um SSD">
+    <h1>SSD Adata XPG</h1>
+    <p class="price">De <span>R$ 1199,90</span> por R$ 999,90</p>
+    <p>SSD Adata XPG Gammix S11 Pro 1TB M.2, Leitura 3500MB/s, Gravação 3000MB/s - AGAMMIXS11P-1TT-C </p>
+  </div>
+
+  <main>
+    <form class="filtro" action="submit">
+      <h3>Coloque um CEP, e obtenha um frete baseado no endereço retornado !</h3>
+      <label for="cep">CEP:</label>
+      <input type="text" name="cep" id="cep" placeholder="Digite seu CEP aqui">
+      <button type="button">Buscar</button>
+      <p><a target="_blank" rel="noopener noreferrer" href="http://www.buscacep.correios.com.br/sistemas/buscacep/">Não sei meu CEP</a></p>
+    </form>
+
+    <div class="hist-container">
+      <div class="box box-left">
+
+      </div>
+      <div class="box box-right">
+
+      </div>
+    </div>
+  </main>
+  <script src="./js/searchCEP.js"></script>
+</body>
+
+</html>
