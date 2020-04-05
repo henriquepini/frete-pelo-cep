@@ -1,10 +1,10 @@
 # Calcular frete !
 Este é um repositório simples para utilização de uma API (documentação [aqui](https://viacep.com.br/)) para encontrar um endereço, dado o CEP.
 ##### Links
-[Tarefas](#tarefas)
-[Grupo](#grupo)
-[Base do projeto](#base-do-projeto)
-[Tabela - Cálculo de Frete](#tabela)
+[Tarefas](#tarefas) |
+[Grupo](#grupo) |
+[Base do projeto](#base-do-projeto) |
+[Tabela - Cálculo de Frete](#tabela) |
 [Formulas](#formulas)
 # Tarefas 
   - Consumir a API da [ViaCEP]( https://viacep.com.br )
