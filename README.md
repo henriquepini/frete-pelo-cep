@@ -1,5 +1,11 @@
 # Calcular frete !
 Este é um repositório simples para utilização de uma API (documentação [aqui](https://viacep.com.br/)) para encontrar um endereço, dado o CEP.
+##### Links
+[Tarefas](#tarefas)
+[Grupo](#grupo)
+[Base do projeto](#base-do-projeto)
+[Tabela - Cálculo de Frete](#tabela)
+[Formulas](#formulas)
 # Tarefas 
   - Consumir a API da [ViaCEP]( https://viacep.com.br )
   - Calcular o **Custo do Frete** de acordo com duas variáveis informadas:
@@ -27,7 +33,7 @@ disciplina de Desenvolvimento de Software.
 **CSS** |Modelo de arquivo .css para ser utilizado na estilização das páginas.
 **JS** |Modelo do JavaScript que será utilizado para enviar informar o CEP para a API da ViaCEP
 **HTML** | Arquivo HTML que será usado como Interface.
-### Tabela - Cálculo de Frete
+### Tabela
 Esta tabela deverá ser utilizada para realizar o Cálculo do Frete, levando-se em consideração o Custo do Produto.
 | Código da UF | UF | Unidade Federativa | Cidade | Frete (%) sobre R$ do Produto |
 ---------------|----|--------------------|--------|-------------------------------|
@@ -65,7 +71,7 @@ Esta tabela deverá ser utilizada para realizar o Cálculo do Frete, levando-se 
 51 |MT|Mato Grosso||65%|
 52 |GO|Goiás||55%|
 53 |DF|Distrito Federal||55%|
-### Fórmulas 
+### Formulas 
 1.  **Frete**
     * Para Calcular o Valor do Frete, será necessário verificar a Taxa (%) percentual atribuído na tabela – Calculo de Frete, usando a seguinte fórmula a seguir.
     ```
@@ -78,4 +84,6 @@ para realizar o Cálculo do Valor Total da Entrega.
     ```
     [ValorTotal = PrecoProduto + (PrecoProduto * (% Frete s/ PrecoProduto))]
     ```
+
+[Voltar ao início](#calcular-frete)
 ### FIM
