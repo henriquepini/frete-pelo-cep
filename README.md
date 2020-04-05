@@ -8,7 +8,7 @@ Este é um repositório simples para utilização de uma API (documentação [aq
  - Calcular o **Custo Total do Produto (R$ Preço do produto + Frete)**
 # Grupo 
 Esta atividade foi feita em grupo, sendo eles :
-> Henrique - 1911513966
+>Henrique - 1911513966
 > Fernando - 1911513366
 > Luana - 1911516783
 > Luis - 1911511522
