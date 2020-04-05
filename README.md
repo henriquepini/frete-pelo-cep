@@ -9,10 +9,10 @@ Este é um repositório simples para utilização de uma API (documentação [aq
 # Grupo 
 Esta atividade foi feita em grupo, sendo eles :
 >Henrique - 1911513966
->Fernando - 1911513366
->Luana - 1911516783
->Luis - 1911511522
->Kaian - 1911511535
+Fernando - 1911513366
+Luana - 1911516783
+Luis - 1911511522
+Kaian - 1911511535
 ## Base do projeto 
 Foi usado como suporte o arquivo **JsSearchCEPProj.zip** que se encontra no Google Driver da
 disciplina de Desenvolvimento de Software.
