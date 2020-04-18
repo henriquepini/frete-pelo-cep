@@ -1,4 +1,4 @@
-# Calcular frete !
+# Calcular frete
 Este é um repositório simples para utilização de uma API (documentação [aqui](https://viacep.com.br/)) para encontrar um endereço, dado o CEP.
 ##### Links
 [Tarefas](#tarefas) |
